@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+   background-color: black;
+   
+}
+
+.container{
+    display: flex;
+   
+   
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
+.card
+{
+    background-color: whitesmoke;
+  width: 170px;
+   
+    margin: 10px;
+}
+
+.card-image {
+  border: 2px solid black;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+}
+
+.card1 {
+    background-image: url('../img/matt.jpg');
+}
+
+.card2
+ {
+    background-image: url('../img/alex.jpg');
+}
+
+.card3 {
+    background-image: url('../img/emily.jpg');
+}
+
+.card h2 {
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+    
+}
+
+.card a {
+    color: white;
+    background-color: black;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
+
+.card:hover{
+    background-color: pink;
+    color: black;
+   transform: scale(1.02);
+   transition: all 1s ease;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+       text-transform: uppercase;
+}
+
+nav a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li a:visited {
+   color: white;
+}
+
+a:focus {
+    background-color: paleturquoise;
+}
+a:hover {
+    border: 1px solid palevioletred;
+}
+
+a:active {
+    border: 1px solid green;
+}
+
+.p1 {
+    color: whitesmoke;
+
+}
+
+h1 {
+    color: white;
+   text-align: center;
+   padding: 30px;
+   border-bottom: 1px solid white;
+}
